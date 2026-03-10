@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Быки и коровы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐂 Быки и коровы 🐄</h1>
+        <p>Я загадал 4-значное число с неповторяющимися цифрами. Попробуйте угадать!</p>
+        <div class="game-panel">
+            <input type="text" id="guessInput" maxlength="4" placeholder="Введите 4 цифры" pattern="\d*">
+            <button id="guessBtn">Проверить</button>
+            <button id="newGameBtn">Новая игра</button>
+        </div>
+        <div id="history" class="history"></div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
