@@ -1,0 +1,18 @@
+package com.example.bullsandcows.model;
+
+public class GuessResponse {
+    private int bulls;
+    private int cows;
+    private boolean gameOver;
+    private String message;
+
+    // конструкторы, геттеры, сеттеры
+    public GuessResponse(int bulls, int cows, boolean gameOver, String message) {
+        this.bulls = bulls;
+        this.cows = cows;
+        this.gameOver = gameOver;
+        this.message = message;
+    }
+
+    // геттеры и сеттеры
+}
